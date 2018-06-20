@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cobolProject" name="DEMO123" version="2.11">
+<project xsi:schemaLocation="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cobolProject" name="DEMO234" version="2.11">
    <settings xsi:type="projectSettingsContainer">
       <copybook-paths xsi:type="copybookPathsSettings">
-         <path enabled="true" name="/DEMO123" type="mfpath"/>
+         <path enabled="true" name="/DEMO234" type="mfpath"/>
+         <path enabled="false" name="/DEMO234/.git" type="mfpath"/>
+         <path enabled="false" name="/DEMO234/.git/logs" type="mfpath"/>
+         <path enabled="false" name="/DEMO234/.git/logs/refs" type="mfpath"/>
+         <path enabled="false" name="/DEMO234/.git/logs/refs/heads" type="mfpath"/>
+         <path enabled="false" name="/DEMO234/.git/logs/refs/remotes" type="mfpath"/>
+         <path enabled="false" name="/DEMO234/.git/logs/refs/remotes/origin" type="mfpath"/>
+         <path enabled="false" name="/DEMO234/.git/objects" type="mfpath"/>
+         <path enabled="false" name="/DEMO234/.git/objects/18" type="mfpath"/>
+         <path enabled="false" name="/DEMO234/.git/objects/4f" type="mfpath"/>
+         <path enabled="false" name="/DEMO234/.git/objects/de" type="mfpath"/>
+         <path enabled="false" name="/DEMO234/.git/objects/f9" type="mfpath"/>
+         <path enabled="false" name="/DEMO234/.git/objects/pack" type="mfpath"/>
+         <path enabled="false" name="/DEMO234/.git/refs" type="mfpath"/>
+         <path enabled="false" name="/DEMO234/.git/refs/heads" type="mfpath"/>
+         <path enabled="false" name="/DEMO234/.git/refs/remotes" type="mfpath"/>
+         <path enabled="false" name="/DEMO234/.git/refs/remotes/origin" type="mfpath"/>
       </copybook-paths>
       <build-precedence-paths xsi:type="buildPrecedenceSettings">
-         <path enabled="true" name="/DEMO123" type="mfpath"/>
+         <path enabled="true" name="/DEMO234" type="mfpath"/>
+         <path enabled="true" name="/DEMO234/.git" type="mfpath"/>
+         <path enabled="true" name="/DEMO234/.git/logs" type="mfpath"/>
+         <path enabled="true" name="/DEMO234/.git/logs/refs" type="mfpath"/>
+         <path enabled="true" name="/DEMO234/.git/logs/refs/heads" type="mfpath"/>
+         <path enabled="true" name="/DEMO234/.git/logs/refs/remotes" type="mfpath"/>
+         <path enabled="true" name="/DEMO234/.git/logs/refs/remotes/origin" type="mfpath"/>
+         <path enabled="true" name="/DEMO234/.git/objects" type="mfpath"/>
+         <path enabled="true" name="/DEMO234/.git/objects/18" type="mfpath"/>
+         <path enabled="true" name="/DEMO234/.git/objects/4f" type="mfpath"/>
+         <path enabled="true" name="/DEMO234/.git/objects/de" type="mfpath"/>
+         <path enabled="true" name="/DEMO234/.git/objects/f9" type="mfpath"/>
+         <path enabled="true" name="/DEMO234/.git/objects/pack" type="mfpath"/>
+         <path enabled="true" name="/DEMO234/.git/refs" type="mfpath"/>
+         <path enabled="true" name="/DEMO234/.git/refs/heads" type="mfpath"/>
+         <path enabled="true" name="/DEMO234/.git/refs/remotes" type="mfpath"/>
+         <path enabled="true" name="/DEMO234/.git/refs/remotes/origin" type="mfpath"/>
       </build-precedence-paths>
       <configurations default="New Configuration" xsi:type="buildConfigurationsContainer">
          <configuration description="New Configuration" type="single_exe" is64bit="false" createlbr="false" platform="Windows" xsi:type="cobolBuildConfiguration">
@@ -22,7 +54,7 @@
                <additional_files/>
                <rcfile path=""/>
                <rts_type value="shared"/>
-               <target name="DEMO123"/>
+               <target name="DEMO234"/>
                <targettype type="exe"/>
                <threaded_rts value="true"/>
                <verbose value="false"/>
@@ -128,7 +160,8 @@
    </settings>
    <files xsi:type="projectFileStore">
       <filetype type="cobol" xsi:type="cobolFileContainer">
-         <file compile="true" path="Program1.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="book.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="booktest.cbl" xsi:type="cobolFile"/>
       </filetype>
       <filetype type="cobol.copybook" xsi:type="cobolFileContainer"/>
    </files>
